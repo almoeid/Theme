@@ -1,0 +1,15 @@
+.top-bar{
+    display: block;
+}
+.padding-desktop{
+    padding-left: 20%;
+}
+@media screen and (max-width: 780px) 
+{
+    .top-bar {
+        display: none;
+    }
+    .padding-desktop{
+        padding-left: 5%;
+    }
+}
